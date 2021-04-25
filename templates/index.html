@@ -339,7 +339,8 @@
                   <div class="card-body">
                       <h2 class="schedule_table">Schedule</h2>
                       <div class="table-responsive">
-                      <table class="table table-sm">
+                        {{ table|safe }}
+                        <!-- <table class="table table-sm">
                           <thead>
                             <tr>
                               <th scope="col"></th>
@@ -400,7 +401,7 @@
                               <td>Chennai</td>
                             </tr>
                           </tbody>
-                        </table>
+                        </table> -->
                       </div>             
                       <!--<div class="row">
                       <div class="col-sm-4 grid-margin">
