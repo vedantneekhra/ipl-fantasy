@@ -9,15 +9,15 @@
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
-      href="./static/vendors/mdi/css/materialdesignicons.min.css"
+      href="../static/vendors/mdi/css/materialdesignicons.min.css"
     />
-    <link rel="stylesheet" href="static/vendors/aos/dist/aos.css/aos.css" />
+    <link rel="stylesheet" href="../static/vendors/aos/dist/aos.css"/>
 
     <!-- End plugin css for this page -->
-    <link rel="shortcut icon" href="static/images/IPL-Logo-Player.png" />
+    <link rel="shortcut icon" href="../static/images/IPL-Logo-Player.png" />
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
     <!-- endinject -->
   </head>
 
@@ -32,35 +32,35 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <ul class="navbar-top-left-menu">
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#fantasypick">Fantasy Pick</a>
+                      <a class="nav-link js-scroll-trigger" href="#">Fantasy Pick</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+                      <a class="nav-link js-scroll-trigger" href="#">Schedule</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#news">News</a>
+                      <a class="nav-link js-scroll-trigger" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#aboutus">About US</a>
+                      <a class="nav-link js-scroll-trigger" href="#">About US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+                      <a class="nav-link js-scroll-trigger" href="#">Blog</a>
                     </li>
                   </ul>
                     <div class="d-flex flex-row-reverse">
                   <ul class="social-media">
                     <li>
-                      <a href="https://www.facebook.com/iamvishwas.rawat/">
+                      <a href="https://www.facebook.com/IPL-Fantasy-League-105209005049397">
                         <i class="mdi mdi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/iamvishwas.rawat/">
+                      <a href="https://www.youtube.com/">
                         <i class="mdi mdi-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/iamvishwas.rawat/">
+                      <a href="https://twitter.com/ipl_league">
                         <i class="mdi mdi-twitter"></i>
                       </a>
                     </li>
@@ -73,15 +73,15 @@
              <div class="d-lg-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center">
                 <span class="badge badge-dark mr-3">
-                    <a href="https://www.hotstar.com/in/sports/cricket/tournament/vivo-indian-premier-league-2021-248">Today's Match</a>
+                    <a href="https://www.hotstar.com/in/sports/cricket/tournament/vivo-indian-premier-league-2021-248">Today's Match</a> <!--backend button--> 
                 </span>
                 <p class="mb-0">
-                        Mumbai Indians vs Sunrisers Hyderabad
+                        Mumbai Indians vs Sunrisers Hyderabad <!-- backend --> 
                 </p>
               </div>
               <div class="d-flex">
-                <span class="mr-3 text-danger">Saturday, April 17, 2021</span>
-                <span class="mr-3 text-black">Chennai</span>
+                <span class="mr-3 text-danger">Saturday, April 17, 2021</span> <!--backend--> 
+                <span class="mr-3 text-black">Chennai</span> <!--backend-->
               </div>
              </div>
             </div>
@@ -101,11 +101,13 @@
                   <div class="card-body">
                     <div class="position-realtive border-bottom pt-2 pd-2">
                         <img
-                            src="static/images/dashboard/banner.jpg"
+                            src="static/images/dashboard/backdrop.jpg"
                             alt="fantasy-pick"
-                            class="img-fluid"
+                            class="img-fluid rounded mx-auto d-block"
                         />
-                    </div>
+                    </div><!-- backendinsert logos on the top of backdrop -->
+                      
+                    <section class="page-section" id="schedule">   
                     <h2 class="schedule_table">Schedule</h2>
                       <div class="table-responsive">
                         {{ table|safe }}
@@ -128,13 +130,23 @@
                               <td>Chennai</td>
                             </tr>
                           </tbody>
-                        </table> -->
-                      </div>  
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>MI vs RCB</td>
+                              <td>April 9</td>
+                              <td>7:30 PM</td>
+                              <td>Chennai</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      </section>    
                   </div>
                 </div>
               </div>
                 
-              <!--<div class="col-lg-4 stretch-card grid-margin">-->
+              < !--<div class="col-lg-4 stretch-card grid-margin">-->
                <div class="col-lg-4 col-md-4 col-xs-6 grid-margin">
                 <div class="card bg-dark text-white">
                     <div class="card-body">
@@ -268,10 +280,7 @@
                     </div>
                 </div> 
                </div>
-            
-          <!--</div>
-          <div class="container">     
-            <div class="row" data-aos="fade-up">-->          
+                   
             </div>    
           </div>
           
@@ -493,8 +502,7 @@
                             </div>
                           </div>
                           <a href="https://youtu.be/BsZ6F1Bm8eY">
-                              <h5 class="font-weight-200 mb-2">
-                                Delhi Capitals Official anthem | O Dilli re, tu #RoarMacha
+                              <h5 class="font-weight-200 mb-2">Delhi Capitals Official anthem | O Dilli re, tu #RoarMacha
                             </h5>
                           </a> 
                         </div>
@@ -503,9 +511,9 @@
                         >
                            <div class="div-w-80 mr-3">
                             <div class="img">
-                            <a href="https://youtu.be/HS_ODZlTr6E">  
+                            <a href="https://youtu.be/aoBvRd7_BIo">  
                             <img
-                                src="static/images/dashboard/videos_srh.jpg"
+                                src="static/images/dashboard/srh_logo.jpg"
                                 alt="thumb"
                                 class="img-thumbnail"
                             />
@@ -513,8 +521,7 @@
                             </div>
                           </div>
                           <a href="https://youtu.be/HS_ODZlTr6E">
-                              <h5 class="font-weight-200 mb-2">
-                                MI v RCB Parody Press Conference
+                              <h5 class="font-weight-200 mb-2">SRH #OrangeOrNothing | 2021 Theme
                             </h5>
                           </a> 
                         </div>
@@ -523,9 +530,9 @@
                         >
                            <div class="div-w-80 mr-3">
                             <div class="img">
-                            <a href="https://youtu.be/HS_ODZlTr6E">  
+                            <a href="https://youtu.be/OuhuW2RfIGw">  
                             <img
-                                src="static/images/dashboard/videos_csk.jpg"
+                                src="static/images/dashboard/pbks_logo.jpg"
                                 alt="thumb"
                                 class="img-thumbnail"
                             />
@@ -533,8 +540,7 @@
                             </div>
                           </div>
                           <a href="https://youtu.be/HS_ODZlTr6E">
-                              <h5 class="font-weight-200 mb-2">
-                                MI v RCB Parody Press Conference
+                              <h5 class="font-weight-200 mb-2">Punjab Kings | Logo Launch 
                             </h5>
                           </a> 
                         </div>
@@ -546,254 +552,7 @@
             </div>
             </div> 
             
-            <!--<div class="container">
-            <div class="row" data-aos="fade-up">
-              <div class="col-sm-12">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-xl-6">
-                        <div class="card-title">
-                          Sport light
-                        </div>
-                        <div class="row">
-                          <div class="col-xl-6 col-lg-8 col-sm-6">
-                            <div class="rotate-img">
-                              <img
-                                src="static/images/dashboard/home_16.jpg"
-                                alt="thumb"
-                                class="img-fluid"
-                              />
-                            </div>
-                            <h2 class="mt-3 text-primary mb-2">
-                              Newsrooms exercise..
-                            </h2>
-                            <p class="fs-13 mb-1 text-muted">
-                              <span class="mr-2">Photo </span>10 Minutes ago
-                            </p>
-                            <p class="my-3 fs-15">
-                              Lorem Ipsum has been the industry's standard dummy
-                              text ever since the 1500s, when an unknown printer
-                              took
-                            </p>
-                            <a href="#" class="font-weight-600 fs-16 text-dark"
-                              >Read more</a
-                            >
-                          </div>
-                          <div class="col-xl-6 col-lg-4 col-sm-6">
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Social distancing is ..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Panic buying is forcing..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div class="border-bottom pb-3 mb-3">
-                              <h3 class="font-weight-600 mb-0">
-                                Businesses ask hundreds..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                            <div>
-                              <h3 class="font-weight-600 mb-0">
-                                Tesla's California factory..
-                              </h3>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                              <p class="mb-0">
-                                Lorem Ipsum has been the industry's
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-6">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="card-title">
-                              Sport light
-                            </div>
-                            <div class="border-bottom pb-3">
-                              <div class="rotate-img">
-                                <img
-                                  src="static/images/dashboard/home_17.jpg"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <p class="fs-16 font-weight-600 mb-0 mt-3">
-                                Kaine: Trump Jr. may have
-                              </p>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                            </div>
-                            <div class="pt-3 pb-3">
-                              <div class="rotate-img">
-                                <img
-                                  src="static/images/dashboard/home_18.jpg"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
-                              </div>
-                              <p class="fs-16 font-weight-600 mb-0 mt-3">
-                                Kaine: Trump Jr. may have
-                              </p>
-                              <p class="fs-13 text-muted mb-0">
-                                <span class="mr-2">Photo </span>10 Minutes ago
-                              </p>
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="card-title">
-                              Celebrity news
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="static/images/dashboard/home_19.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3 pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="static/images/dashboard/home_20.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="border-bottom pb-3 pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="static/images/dashboard/home_21.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <div class="pt-3">
-                                  <div class="row">
-                                    <div class="col-sm-5 pr-2">
-                                      <div class="rotate-img">
-                                        <img
-                                          src="static/images/dashboard/home_22.jpg"
-                                          alt="thumb"
-                                          class="img-fluid w-100"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-7 pl-2">
-                                      <p class="fs-16 font-weight-600 mb-0">
-                                        Online shopping ..
-                                      </p>
-                                      <p class="fs-13 text-muted mb-0">
-                                        <span class="mr-2">Photo </span>10
-                                        Minutes ago
-                                      </p>
-                                      <p class="mb-0 fs-13">
-                                        Lorem Ipsum has been
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
+            
           </div>
         </div>
     
@@ -812,107 +571,7 @@
                     the cricket industry.
                   </h5>
                 </div>
-                <!--<div class="col-sm-4">
-                  <h3 class="font-weight-bold mb-3">RECENT POSTS</h3>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="footer-border-bottom pb-2">
-                        <div class="row">
-                          <div class="col-3">
-                            <img
-                              src="static/images/dashboard/home_1.jpg"
-                              alt="thumb"
-                              class="img-fluid"
-                            />
-                          </div>
-                          <div class="col-9">
-                            <h5 class="font-weight-600">
-                              Cotton import from USA to soar was American traders
-                              predict
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="footer-border-bottom pb-2 pt-2">
-                        <div class="row">
-                          <div class="col-3">
-                            <img
-                              src="static/images/dashboard/home_2.jpg"
-                              alt="thumb"
-                              class="img-fluid"
-                            />
-                          </div>
-                          <div class="col-9">
-                            <h5 class="font-weight-600">
-                              Cotton import from USA to soar was American traders
-                              predict
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div>
-                        <div class="row">
-                          <div class="col-3">
-                            <img
-                              src="static/images/dashboard/home_3.jpg"
-                              alt="thumb"
-                              class="img-fluid"
-                            />
-                          </div>
-                          <div class="col-9">
-                            <h5 class="font-weight-600 mb-3">
-                              Cotton import from USA to soar was American traders
-                              predict
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>-->
-                  
-                  
-                <!--<div class="col-sm-3">
-                  <h3 class="font-weight-bold mb-3">CATEGORIES</h3>
-                  <div class="footer-border-bottom pb-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Magazine</h5>
-                      <div class="count">1</div>
-                    </div>
-                  </div>
-                  <div class="footer-border-bottom pb-2 pt-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Business</h5>
-                      <div class="count">1</div>
-                    </div>
-                  </div>
-                  <div class="footer-border-bottom pb-2 pt-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Sports</h5>
-                      <div class="count">1</div>
-                    </div>
-                  </div>
-                  <div class="footer-border-bottom pb-2 pt-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Arts</h5>
-                      <div class="count">1</div>
-                    </div>
-                  </div>
-                  <div class="pt-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Politics</h5>
-                      <div class="count">1</div>
-                    </div>
-                  </div>
-                </div>-->
+                
                   
               </div>
             </div>
