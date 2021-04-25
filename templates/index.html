@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8" />
@@ -9,7 +9,7 @@
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
-      href="static/vendors/mdi/css/materialdesignicons.min.css"
+      href="./static/vendors/mdi/css/materialdesignicons.min.css"
     />
     <link rel="stylesheet" href="static/vendors/aos/dist/aos.css/aos.css" />
 
@@ -27,99 +27,27 @@
         <!-- partial:partials/_navbar.html -->
         <header id="header">
           <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
               <div class="navbar-top">
                 <div class="d-flex justify-content-between align-items-center">
                   <ul class="navbar-top-left-menu">
                     <li class="nav-item">
-                      <a href="templates/index-inner.html" class="nav-link">Fantasy Pick</a>
+                      <a class="nav-link js-scroll-trigger" href="#fantasypick">Fantasy Pick</a>
                     </li>
                     <li class="nav-item">
-                      <a href="templates/aboutus.html" class="nav-link">Schedule</a>
+                      <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link">News</a>
+                      <a class="nav-link js-scroll-trigger" href="#news">News</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link">About US</a>
+                      <a class="nav-link js-scroll-trigger" href="#aboutus">About US</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link">Blog</a>
+                      <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
                     </li>
                   </ul>
-                  <!--Login 
-                    <ul class="navbar-top-right-menu">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="mdi mdi-magnify"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Sign in</a>
-                        </li>
-                    </ul>
-                -->
-                </div>
-              </div>
-              <div class="navbar-bottom">
-                <div class="d-flex justify-content-between align-items-center">
-                  <!--<div>
-                    <a class="navbar-brand" href="#"
-                      ><img src="" alt=""
-                    /></a>
-                  </div>
-                  <div>
-                    <button
-                      class="navbar-toggler"
-                      type="button"
-                      data-target="#navbarSupportedContent"
-                      aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div
-                      class="navbar-collapse justify-content-center collapse"
-                      id="navbarSupportedContent"
-                    >
-                      <ul
-                        class="navbar-nav d-lg-flex justify-content-between align-items-center"
-                      >
-                        <li>
-                          <button class="navbar-close">
-                            <i class="mdi mdi-close"></i>
-                          </button>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="templates/kkr.html">KKR</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/mi.html">MI</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/rcb.html">RCB</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/rr.html">RR</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/srh.html">SRH</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/csk.html">CSK</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/dc.html">DC</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="templates/kxip.html">KXIP</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>-->
+                    <div class="d-flex flex-row-reverse">
                   <ul class="social-media">
                     <li>
                       <a href="https://www.facebook.com/iamvishwas.rawat/">
@@ -137,123 +65,82 @@
                       </a>
                     </li>
                   </ul>
-                </div>
               </div>
+            </div> 
+            </div>
+            
+            <div class="flash-news-banner">
+             <div class="d-lg-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center">
+                <span class="badge badge-dark mr-3">
+                    <a href="https://www.hotstar.com/in/sports/cricket/tournament/vivo-indian-premier-league-2021-248">Today's Match</a>
+                </span>
+                <p class="mb-0">
+                        Mumbai Indians vs Sunrisers Hyderabad
+                </p>
+              </div>
+              <div class="d-flex">
+                <span class="mr-3 text-danger">Saturday, April 17, 2021</span>
+                <span class="mr-3 text-black">Chennai</span>
+              </div>
+             </div>
+            </div>
+            
             </nav>
           </div>
         </header>
 
-        <!-- partial -->
-        <div class="flash-news-banner">
-          <div class="container">
-            <div class="d-lg-flex align-items-center justify-content-between">
-              <div class="d-flex align-items-center">
-                <span class="badge badge-dark mr-3">Today's Match</span>
-                <p class="mb-0">
-                        Chennai Super Kings vs Delhi Capitals
-                </p>
-              </div>
-              <div class="d-flex">
-                <span class="mr-3 text-danger">Sat, April 10, 2021</span>
-                <span class="text-danger">Wankhade Stadium</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- partial--> 
+          
+        <!--<section class="page-section" id="fantasypick">--> 
         <div class="content-wrapper">
           <div class="container">
-            <div class="row" data-aos="fade-up">
-              <div class="col-xl-8 grid-margin">
-                <div class="position-relative">
-                  <img
-                    src="static/images/dashboard/banner.jpg"
-                    alt="Highlight"
-                    width=100%
-                  />
-                  <div class="banner-content">
-                    <div class="badge badge-danger fs-12 font-weight-bold mb-3">
-                      Highlight
-                    </div>
-                    <h1 class="mb-0">Match 1:</h1>
-                    <h1 class="mb-2">
-                      RCB won by 2 wickets against mumbai indians.
-                    </h1>
-                    <div class="fs-12">
-                      <span class="mr-2">News</span>09 April 2021
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 stretch-card grid-margin">
-                <div class="card bg-dark text-white">
+            <div class="top-row" data-aos="fade-up">
+              <div class="col-lg-8 stretch-card grid-margin">
+                <div class="card">
                   <div class="card-body">
-                    <h2>Latest news</h2>
-
-                    <div
-                      class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between"
-                    >
-                      <div class="pr-3">
-                        <h5>Harshal Patel rises from doing bit-part roles to being main man</h5>
-                        <div class="fs-12">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                      </div>
-                      <div class="rotate-img">
+                    <div class="position-realtive border-bottom pt-2 pd-2">
                         <img
-                          src="static/images/dashboard/home_1.jpg"
-                          alt="thumb"
-                          class="img-fluid img-lg"
+                            src="static/images/dashboard/banner.jpg"
+                            alt="fantasy-pick"
+                            class="img-fluid"
                         />
-                      </div>
                     </div>
-
-                    <div
-                      class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between"
-                    >
-                      <div class="pr-3">
-                        <h5>Should Bumrah have come on earlier against Maxwell? And Boult for the 18th?</h5>
-                        <div class="fs-12">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                      </div>
-                      <div class="rotate-img">
-                        <img
-                          src="static/images/dashboard/home_2.jpg"
-                          alt="thumb"
-                          class="img-fluid img-lg"
-                        />
-                      </div>
-                    </div>
-
-                    <div
-                      class="d-flex pt-4 align-items-center justify-content-between"
-                    >
-                      <div class="pr-3">
-                        <h5>Kohli backs Maxwell at No. 4, says his knock was 'momentum changer' against Mumbai Indians</h5>
-                        <div class="fs-12">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                      </div>
-                      <div class="rotate-img">
-                        <img
-                          src="static/images/dashboard/home_3.jpg"
-                          alt="thumb"
-                          class="img-fluid img-lg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row" data-aos="fade-up">
-              <div class="col-lg-4 col-md-4 col-xs-6 grid-margin">
-                <div class="card bg-dark text-white">
-                  <div class="card-body">
-                    <h2 class="points_table">Standings</h2>
+                    <h2 class="schedule_table">Schedule</h2>
                       <div class="table-responsive">
-                      <table class="table table-sm text-white">
-                          <caption>Updated 09/04/2021</caption>
+                      <table class="table table-sm">
+                          <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Team</th>
+                              <th scope="col">Date</th> 
+                              <th scope="col">Time</th>
+                              <th scope="col">Venue</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>MI vs RCB</td>
+                              <td>April 9</td>
+                              <td>7:30 PM</td>
+                              <td>Chennai</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>  
+                  </div>
+                </div>
+              </div>
+                
+              <!--<div class="col-lg-4 stretch-card grid-margin">-->
+               <div class="col-lg-4 col-md-4 col-xs-6 grid-margin">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h2 class="points_table">POINTS TABLE: </h2>
+                        <div class="table-responsive">
+                            <!--{{ table }} -->
+                        <table class="table table-sm text-white">
                           <thead>
                             <tr>
                               <th scope="col"></th>
@@ -315,6 +202,7 @@
                             </tr>
                           </tbody>
                         </table>
+<<<<<<< HEAD
                       </div>  
                       <!--
                     <ul class="vertical-menu">
@@ -406,100 +294,81 @@
                       <!--<div class="row">
                       <div class="col-sm-4 grid-margin">
                         <div class="position-relative">
+=======
+                      </div> 
+                        <div class="trending">
+                            <h2 class="news_article text-primary font-weight-800">TRENDING: </h2>
+                        <div class="mb-4">
+>>>>>>> 2b10482cc9048a04cec6a7bec656cc024c398643
                           <div class="rotate-img">
                             <img
-                              src="static/images/dashboard/home_4.jpg"
-                              alt="thumb"
+                                src="static/images/trending_1.png"
+                                alt="IPL 2021"
+                                class="img-fluid"
+                            />
+                              
+                          </div>
+                          <a href="https://www.cricadium.com/ipl-2021-salary-of-captains-of-all-ipl-teams/">
+                            <h3 class="mt-3 font-weight-600">
+                                IPL 2021: Salary of Captains of all IPL Teams
+                            </h3>
+                          </a>
+                        </div>
+                        <div class="mb-4">
+                          <div class="rotate-img">
+                            <img
+                              src="static/images/trending_2.jpg"
+                              alt="banner"
                               class="img-fluid"
                             />
                           </div>
-                          <div class="badge-positioned">
-                            <span class="badge badge-danger font-weight-bold"
-                              >Flash news</span
-                            >
-                          </div>
+                          <a href="https://www.cricadium.com/ipl-2021-rating-the-chances-of-ipl-teams-winning-the-title/">
+                            <h3 class="mt-3 font-weight-600"> 
+                                IPL 2021: Rating The Chances of IPL Teams Winning the Title
+                            </h3>
+                          </a>
                         </div>
-                      </div>
-                      <div class="col-sm-8  grid-margin">
-                        <h2 class="mb-2 font-weight-600">
-                          South Korea’s Moon Jae-in sworn in vowing to address
-                          North
-                        </h2>
-                        <div class="fs-13 mb-2">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                        <p class="mb-0">
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an
-                        </p>
-                      </div>
-                    </div>-->
-
-                    <!--<div class="row">
-                      <div class="col-sm-4 grid-margin">
-                        <div class="position-relative">
+                        <div class="mb-4">
                           <div class="rotate-img">
                             <img
-                              src="static/images/dashboard/home_5.jpg"
-                              alt="thumb"
+                              src="static/images/trending_3.png"
+                              alt="banner"
                               class="img-fluid"
                             />
                           </div>
-                          <div class="badge-positioned">
-                            <span class="badge badge-danger font-weight-bold"
-                              >Flash news</span
-                            >
+                            <a href="https://www.cricadium.com/ipl-2021-ms-dhoni-on-the-verge-of-a-significant-milestone/">
+                                <h3 class="mt-3 font-weight-600">
+                                    IPL 2021: MS Dhoni on the Verge of a Significant Milestone
+                                </h3>
+                            </a>        
                           </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-8  grid-margin">
-                        <h2 class="mb-2 font-weight-600">
-                          No charges over 2017 Conservative battle bus cases
-                        </h2>
-                        <div class="fs-13 mb-2">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                        <p class="mb-0">
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an
-                        </p>
-                      </div>
-                    </div>-->
-
-                    <!--<div class="row">
-                      <div class="col-sm-4">
-                        <div class="position-relative">
+                        
+                          <div class="mb-4">
                           <div class="rotate-img">
                             <img
-                              src="static/images/dashboard/home_6.jpg"
-                              alt="thumb"
+                              src="static/images/trending_4.png"
+                              alt="banner"
                               class="img-fluid"
                             />
                           </div>
-                          <div class="badge-positioned">
-                            <span class="badge badge-danger font-weight-bold"
-                              >Flash news</span
-                            >
+                            <a href="https://www.cricadium.com/who-can-break-this-record-of-virat-kohli/">
+                                <h3 class="mt-3 font-weight-600">
+                                    Who Can Break This Record of Virat Kohli?
+                                </h3>
+                            </a>        
                           </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-8">
-                        <h2 class="mb-2 font-weight-600">
-                          Kaine: Trump Jr. may have committed treason
-                        </h2>
-                        <div class="fs-13 mb-2">
-                          <span class="mr-2">Photo </span>10 Minutes ago
-                        </div>
-                        <p class="mb-0">
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an
-                        </p>
-                      </div>
-                    </div>-->
-                  </div>
-                </div>
-              </div>
-            </div>
+                      </div> 
+                    </div>
+                </div> 
+               </div>
+            
+          <!--</div>
+          <div class="container">     
+            <div class="row" data-aos="fade-up">-->          
+            </div>    
+          </div>
+          
+            <div class="container">
             <div class="row" data-aos="fade-up">
               <div class="col-sm-12 grid-margin">
                 <div class="card">
@@ -507,29 +376,30 @@
                     <div class="row">
                       <div class="col-lg-8">
                         <div class="card-title">
-                          Highlights
+                          Latest Videos
                         </div>
                         <div class="row">
                           <div class="col-sm-6 grid-margin">
                             <div class="position-relative">
-                              <div class="rotate-img">
+                              <div class="img">
+                                <a href="https://www.youtube.com/watch?v=cPhp6e6ZWmE">
                                 <img
-                                  src="static/images/dashboard/home_7.jpg"
-                                  alt="thumb"
+                                  src="static/images/dashboard/videos_1.jpg"
+                                  alt="IPL 2021"
                                   class="img-fluid"
                                 />
+                                </a>    
                               </div>
                               <div class="badge-positioned w-90">
                                 <div
                                   class="d-flex justify-content-between align-items-center"
                                 >
-                                  <span
+                                  <a href="https://www.youtube.com/watch?v=cPhp6e6ZWmE">
+                                    <span
                                     class="badge badge-danger font-weight-bold"
-                                    >Lifestyle</span
+                                    >VIVO IPL 2021</span
                                   >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
+                                  </a>      
                                 </div>
                               </div>
                             </div>
@@ -537,24 +407,26 @@
 
                           <div class="col-sm-6 grid-margin">
                             <div class="position-relative">
-                              <div class="rotate-img">
+                              <div class="img">
+                                <a href="https://www.youtube.com/watch?v=kx6dcS5RuTI">
                                 <img
-                                  src="static/images/dashboard/home_8.jpg"
-                                  alt="thumb"
+                                  src="static/images/dashboard/videos_3.jpg"
+                                  alt="Hotstar"
                                   class="img-fluid"
                                 />
+                                </a>
                               </div>
                               <div class="badge-positioned w-90">
                                 <div
                                   class="d-flex justify-content-between align-items-center"
                                 >
+                                  <a href="https://www.youtube.com/watch?v=kx6dcS5RuTI">    
                                   <span
                                     class="badge badge-danger font-weight-bold"
-                                    >National News</span
+                                    >Hotstar IPL 2021</span
                                   >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
+                                  </a>      
+                                  
                                 </div>
                               </div>
                             </div>
@@ -563,24 +435,24 @@
                         <div class="row">
                           <div class="col-sm-6 grid-margin">
                             <div class="position-relative">
-                              <div class="rotate-img">
+                              <div class="img">
+                                <a href="https://www.youtube.com/watch?v=jSyPJVeH8Ps">
                                 <img
-                                  src="static/images/dashboard/home_9.jpg"
-                                  alt="thumb"
+                                  src="static/images/dashboard/videos_2.jpg"
+                                  alt="rcb vs csk"
                                   class="img-fluid"
                                 />
+                                </a>    
                               </div>
                               <div class="badge-positioned w-90">
                                 <div
                                   class="d-flex justify-content-between align-items-center"
-                                >
+                                ><a href="https://www.youtube.com/watch?v=jSyPJVeH8Ps">
                                   <span
                                     class="badge badge-danger font-weight-bold"
-                                    >Lifestyle</span
+                                    >Preview: RCB vs CSK</span
                                   >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
+                                </a>
                                 </div>
                               </div>
                             </div>
@@ -588,24 +460,25 @@
 
                           <div class="col-sm-6 grid-margin">
                             <div class="position-relative">
-                              <div class="rotate-img">
-                                <img
-                                  src="static/images/dashboard/home_10.jpg"
-                                  alt="thumb"
-                                  class="img-fluid"
-                                />
+                              <div class="img">
+                                <a href="https://www.youtube.com/watch?v=LqnWT9nGUlM&t=26s">
+                                    <img
+                                    src="static/images/dashboard/videos_4.jpg"
+                                    alt="IPL Anthem"
+                                    class="img-fluid"
+                                    />
+                                  </a>
                               </div>
                               <div class="badge-positioned w-90">
                                 <div
                                   class="d-flex justify-content-between align-items-center"
                                 >
+                                <a href="https://www.youtube.com/watch?v=LqnWT9nGUlM&t=26s">
                                   <span
                                     class="badge badge-danger font-weight-bold"
-                                    >National News</span
+                                    >IPL 2021 Anthem</span
                                   >
-                                  <div class="video-icon">
-                                    <i class="mdi mdi-play"></i>
-                                  </div>
+                                </a>    
                                 </div>
                               </div>
                             </div>
@@ -616,90 +489,147 @@
                         <div
                           class="d-flex justify-content-between align-items-center"
                         >
-                          <div class="card-title">
-                            Latest Video
-                          </div>
                           <p class="mb-3">See all</p>
                         </div>
                         <div
-                          class="d-flex justify-content-between align-items-center border-bottom pb-2"
+                          class="d-flex justify-content-between align-items-center border-bottom pt-2 pb-2"
                         >
                           <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="static/images/dashboard/home_11.jpg"
+                            <div class="img">
+                            <a href="https://youtu.be/ZcayNHUlAnc">  
+                            <img
+                                src="static/images/dashboard/videos_rcb.jpg"
                                 alt="thumb"
-                                class="img-fluid"
-                              />
+                                class="img-thumbnail"
+                            />
+                            </a>    
                             </div>
                           </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Apple Introduces Apple Watch
-                          </h3>
+                          <a href="https://youtu.be/ZcayNHUlAnc">
+                              <h5 class="font-weight-150 mb-2">
+                                  Mr. Nags is on his way to RCB's IPL 2021 bubble | RCB Insider
+                            </h5>
+                          </a>      
                         </div>
                         <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                          class="d-flex justify-content-between align-items-center border-bottom"
                         >
                           <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
+                            <div class="img">
+                            <a href="https://youtu.be/UAuMrruUmr0">
                               <img
-                                src="static/images/dashboard/home_12.jpg"
+                                src="static/images/dashboard/videos_mi.jpg"
                                 alt="thumb"
-                                class="img-fluid"
+                                class="img-thumbnail"
                               />
+                            </a>    
                             </div>
                           </div>
-                          <h3 class="font-weight-600 mb-0">
-                            SEO Strategy & Google Search
-                          </h3>
+                        <a href="https://youtu.be/UAuMrruUmr0">    
+                          <h5 class="font-weight-200 mb-2">
+                            MI Diary Ep 1 - One Family fun, Shoot BTS & KKR triumph 
+                          </h5>
+                            </a>
                         </div>
                         <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                          class="d-flex justify-content-between align-items-center border-bottom"
                         >
                           <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="static/images/dashboard/home_13.jpg"
+                            <div class="img">
+                            <a href="https://youtu.be/fs8Bjk2TXDo">  
+                            <img
+                                src="static/images/dashboard/videos_kkr.jpg"
                                 alt="thumb"
-                                class="img-fluid"
-                              />
+                                class="img-thumbnail"
+                            />
+                            </a>    
                             </div>
                           </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Cycling benefit & disadvantag
-                          </h3>
+                          <a href="https://youtu.be/fs8Bjk2TXDo">
+                              <h5 class="font-weight-200 mb-2">
+                                We are the Knights. We are the Fighters | KKR Hai Taiyaar
+                            </h5>
+                          </a>      
                         </div>
                         <div
-                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                          class="d-flex justify-content-between align-items-center border-bottom"
                         >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="static/images/dashboard/home_14.jpg"
+                           <div class="div-w-80 mr-3">
+                            <div class="img">
+                            <a href="https://youtu.be/AgYQqISx8ns">  
+                            <img
+                                src="static/images/dashboard/videos_rr.jpg"
                                 alt="thumb"
-                                class="img-fluid"
-                              />
+                                class="img-thumbnail"
+                            />
+                            </a>    
                             </div>
                           </div>
-                          <h3 class="font-weight-600">
-                            The Major Health Benefits of
-                          </h3>
+                          <a href="https://youtu.be/AgYQqISx8ns">
+                              <h5 class="font-weight-200 mb-2">
+                                Welcome to Riyan Parag’s training video | Halla Bol
+                            </h5>
+                          </a> 
                         </div>
                         <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                           <div class="div-w-80 mr-3">
+                            <div class="img">
+                            <a href="https://youtu.be/BsZ6F1Bm8eY">  
+                            <img
+                                src="static/images/dashboard/videos_dc.jpg"
+                                alt="thumb"
+                                class="img-thumbnail"
+                            />
+                            </a>    
+                            </div>
+                          </div>
+                          <a href="https://youtu.be/BsZ6F1Bm8eY">
+                              <h5 class="font-weight-200 mb-2">
+                                Delhi Capitals Official anthem | O Dilli re, tu #RoarMacha
+                            </h5>
+                          </a> 
+                        </div>
+                          <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                           <div class="div-w-80 mr-3">
+                            <div class="img">
+                            <a href="https://youtu.be/HS_ODZlTr6E">  
+                            <img
+                                src="static/images/dashboard/videos_srh.jpg"
+                                alt="thumb"
+                                class="img-thumbnail"
+                            />
+                            </a>    
+                            </div>
+                          </div>
+                          <a href="https://youtu.be/HS_ODZlTr6E">
+                              <h5 class="font-weight-200 mb-2">
+                                MI v RCB Parody Press Conference
+                            </h5>
+                          </a> 
+                        </div>
+                          <div
                           class="d-flex justify-content-between align-items-center pt-3"
                         >
-                          <div class="div-w-80 mr-3">
-                            <div class="rotate-img">
-                              <img
-                                src="static/images/dashboard/home_15.jpg"
+                           <div class="div-w-80 mr-3">
+                            <div class="img">
+                            <a href="https://youtu.be/HS_ODZlTr6E">  
+                            <img
+                                src="static/images/dashboard/videos_csk.jpg"
                                 alt="thumb"
-                                class="img-fluid"
-                              />
+                                class="img-thumbnail"
+                            />
+                            </a>    
                             </div>
                           </div>
-                          <h3 class="font-weight-600 mb-0">
-                            Powerful Moments of Peace
-                          </h3>
+                          <a href="https://youtu.be/HS_ODZlTr6E">
+                              <h5 class="font-weight-200 mb-2">
+                                MI v RCB Parody Press Conference
+                            </h5>
+                          </a> 
                         </div>
                       </div>
                     </div>
@@ -707,6 +637,9 @@
                 </div>
               </div>
             </div>
+            </div> 
+            
+            <!--<div class="container">
             <div class="row" data-aos="fade-up">
               <div class="col-sm-12">
                 <div class="card">
@@ -953,8 +886,10 @@
                 </div>
               </div>
             </div>
+          </div>-->
           </div>
         </div>
+    
         <!-- main-panel ends -->
         <!-- container-scroller ends -->
 
@@ -963,32 +898,14 @@
           <div class="footer-top">
             <div class="container">
               <div class="row">
-                <div class="col-sm-5">
-                  <img src="static/images/logo.svg" class="footer-logo" alt="" />
-                  <h5 class="font-weight-normal mt-4 mb-5">
-                    Newspaper is your news, entertainment, music fashion website. We
+                <div class="col-sm-12">
+                  <h5 class="bottom_footter font-weight-normal mt-4 mb-5 justify-content-between align-items-center">
+                    We our an IPL Fantasy media website. We
                     provide you with the latest breaking news and videos straight from
-                    the entertainment industry.
+                    the cricket industry.
                   </h5>
-                  <ul class="social-media mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="mdi mdi-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="mdi mdi-twitter"></i>
-                      </a>
-                    </li>
-                  </ul>
                 </div>
-                <div class="col-sm-4">
+                <!--<div class="col-sm-4">
                   <h3 class="font-weight-bold mb-3">RECENT POSTS</h3>
                   <div class="row">
                     <div class="col-sm-12">
@@ -1053,8 +970,10 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-3">
+                </div>-->
+                  
+                  
+                <!--<div class="col-sm-3">
                   <h3 class="font-weight-bold mb-3">CATEGORIES</h3>
                   <div class="footer-border-bottom pb-2">
                     <div class="d-flex justify-content-between align-items-center">
@@ -1086,7 +1005,8 @@
                       <div class="count">1</div>
                     </div>
                   </div>
-                </div>
+                </div>-->
+                  
               </div>
             </div>
           </div>
@@ -1096,10 +1016,7 @@
                 <div class="col-sm-12">
                   <div class="d-sm-flex justify-content-between align-items-center">
                     <div class="fs-14 font-weight-600">
-                      © 2020 @ <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white"> BootstrapDash</a>. All rights reserved.
-                    </div>
-                    <div class="fs-14 font-weight-600">
-                      Handcrafted by <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white">BootstrapDash</a>
+                      © 2021 @Copyright<a href="#" target="_blank" class="text-white"> IPL Fantasy</a>. All rights reserved
                     </div>
                   </div>
                 </div>
@@ -1110,7 +1027,6 @@
 
         <!-- partial -->
       </div>
-    </div>
     <!-- inject:js -->
     <script src="static/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
